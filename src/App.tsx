@@ -24,7 +24,7 @@ export function App() {
     {
       title: 'Calculadora de Rendimentos',
       description: 'Site feito para calcular juros, ver como seria aplicando cada mês e ver a tabela de rendimentos.',
-      image: BhaskarasSiteImg,
+      image: RendimentosImg,
       url: 'https://investmentamount.netlify.app/'
     },
     {
@@ -36,7 +36,7 @@ export function App() {
     {
       title: 'Calculadora de Bhaskaras',
       description: 'Site para calcular Bhaskaras de forma simples, passando apenas os valores e recebendo as raízes.',
-      image: RendimentosImg,
+      image: BhaskarasSiteImg,
       url: 'https://migufe-bhaskara-calculator.netlify.app'
     },
     {
