@@ -13,31 +13,31 @@ export function App() {
     {
       title: 'Bolos do Migufe',
       description: 'Site de loja de bolos com sistema de carrinho de compras.',
-      imageUrl: '../public/Bolos do Migufe.png',
+      imageUrl: '../public/Bolos-do-Migufe.jpeg',
       url: 'https://migufe-cake-store.netlify.app'
     },
     {
       title: 'Calculadora de Rendimentos',
       description: 'Site feito para calcular juros, ver como seria aplicando cada mês e ver a tabela de rendimentos.',
-      imageUrl: '../public/Calculadora de Rendimentos.png',
+      imageUrl: '../public/Calculadora-de-Rendimentos_1.jpeg',
       url: 'https://investmentamount.netlify.app/'
     },
     {
       title: 'Regra de Três Simples',
       description: 'Site para calcular Regra de Três Simples com rapidez.',
-      imageUrl: '../public/Regra de Três Simples.png',
+      imageUrl: '../public/Regra-de-Três-Simples.jpeg',
       url: 'https://migufe-regra-de-tres.netlify.app'
     },
     {
       title: 'Calculadora de Bhaskaras',
       description: 'Site para calcular Bhaskaras de forma simples, passando apenas os valores e recebendo as raízes.',
-      imageUrl: '../public/Calculadora de Bhaskaras.png',
+      imageUrl: '../public/Calculadora-de-Bhaskaras.jpeg',
       url: 'https://migufe-bhaskara-calculator.netlify.app'
     },
     {
       title: 'Site de Listagem',
       description: 'Site para criar listas de forma simples e rápida manda-las no Whatsapp.',
-      imageUrl: '../public/Site de Listagem.png',
+      imageUrl: '../public/Site-de-Listagem_1.jpeg',
       url: 'https://migufe-lista-tarefas.netlify.app'
     }
   ]
