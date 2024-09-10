@@ -1,10 +1,15 @@
 import { Project } from './components/Project/Project'
 import Img from '../public/79186af5-5b30-486c-849f-9141d944e490.jpeg'
+import MigufeCakeImg from '../public/Bolos do Migufe.png'
+import BhaskarasSiteImg from '../public/Calculadora de Bhaskaras.png'
+import RegraDeTresImg from '../public/Regra de Três Simples.png'
+import RendimentosImg from '../public/Calculadora de Rendimentos.png'
+import SiteListagemImg from '../public/Site de Listagem.png'
 
 interface Project {
   title: string
   description: string
-  imageUrl: string
+  image: string
   url: string
 }
 
@@ -13,31 +18,31 @@ export function App() {
     {
       title: 'Bolos do Migufe',
       description: 'Site de loja de bolos com sistema de carrinho de compras.',
-      imageUrl: '../public/Bolos do Migufe.png',
+      image: MigufeCakeImg,
       url: 'https://migufe-cake-store.netlify.app'
     },
     {
       title: 'Calculadora de Rendimentos',
       description: 'Site feito para calcular juros, ver como seria aplicando cada mês e ver a tabela de rendimentos.',
-      imageUrl: '../public/Calculadora de Rendimentos.png',
+      image: BhaskarasSiteImg,
       url: 'https://investmentamount.netlify.app/'
     },
     {
       title: 'Regra de Três Simples',
       description: 'Site para calcular Regra de Três Simples com rapidez.',
-      imageUrl: '../public/Regra de Três Simples.png',
+      image: RegraDeTresImg,
       url: 'https://migufe-regra-de-tres.netlify.app'
     },
     {
       title: 'Calculadora de Bhaskaras',
       description: 'Site para calcular Bhaskaras de forma simples, passando apenas os valores e recebendo as raízes.',
-      imageUrl: '../public/Calculadora de Bhaskaras.png',
+      image: RendimentosImg,
       url: 'https://migufe-bhaskara-calculator.netlify.app'
     },
     {
       title: 'Site de Listagem',
       description: 'Site para criar listas de forma simples e rápida manda-las no Whatsapp.',
-      imageUrl: '../public/Site de Listagem.png',
+      image: SiteListagemImg,
       url: 'https://migufe-lista-tarefas.netlify.app'
     }
   ]
@@ -68,7 +73,7 @@ export function App() {
                     key={project.title}
                     title={project.title}
                     description={project.description}
-                    imageUrl={project.imageUrl}
+                    image={project.image}
                     url={project.url}
                   />
                 )
