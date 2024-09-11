@@ -10,6 +10,7 @@ import StatsPreviewImg from '../../../public/Frontend Mentor _ Stats preview car
 import ProductPreviewImg from '../../../public/Frontend Mentor _ Product preview card component.png'
 
 interface Project {
+  id: number
   title: string
   description: string
   image: string
@@ -19,48 +20,56 @@ interface Project {
 export function Projects() {
   const projects: Project[] = [
     {
+      id: 1,
       title: 'Bolos do Migufe',
       description: 'Site de loja de bolos com sistema de carrinho de compras e finalização de compras pelo Whatsapp.',
       image: MigufeCakeImg,
       url: 'https://migufe-cake-store.netlify.app'
     },
     {
+      id: 2,
       title: 'Calculadora de Rendimentos',
       description: 'Site feito para calcular juros, ver como seria aplicando cada mês e ver a tabela de rendimentos.',
       image: RendimentosImg,
       url: 'https://investmentamount.netlify.app/'
     },
     {
+      id: 3,
       title: 'Regra de Três Simples',
       description: 'Site para calcular Regra de Três Simples com rapidez.',
       image: RegraDeTresImg,
       url: 'https://migufe-regra-de-tres.netlify.app'
     },
     {
+      id: 4,
       title: 'Calculadora de Bhaskaras',
       description: 'Site para calcular Bhaskaras de forma simples, passando apenas os valores e recebendo as raízes.',
       image: BhaskarasSiteImg,
       url: 'https://migufe-bhaskara-calculator.netlify.app'
     },
     {
+      id: 5,
       title: 'Site de Listagem',
       description: 'Site para criar listas de forma simples e rápida manda-las no Whatsapp.',
       image: SiteListagemImg,
       url: 'https://migufe-lista-tarefas.netlify.app'
     },
     {
+      id: 6,
       title: 'Restaurante Food',
       description: 'Landing Page criada para apresentação de restaurante.',
       image: FoodStoreImg,
       url: 'https://migufe-food-store.netlify.app/'
     },
     {
+      id: 7,
       title: 'Landing Page',
       description: 'Landing Page criada para apresentação de equipes.',
       image: StatsPreviewImg,
       url: 'https://stats-preview-card-component-layout.netlify.app/'
     },
     {
+      id: 8,
       title: 'Card de Produto',
       description: 'Landing Page de apresentação de perfume.',
       image: ProductPreviewImg,
@@ -69,7 +78,7 @@ export function Projects() {
   ]
 
   return (
-    <div className='my-7'>
+    <div className='my-7 w-full'>
       <h2 className='text-2xl text-gray-400 ml-4'>Projetos</h2>
 
       <div className='grid md:grid-cols-2 lg:grid-cols-3'>
@@ -77,7 +86,7 @@ export function Projects() {
           projects.map((project) => {
             return (
               <Project
-                key={project.title}
+                key={project.id}
                 title={project.title}
                 description={project.description}
                 image={project.image}

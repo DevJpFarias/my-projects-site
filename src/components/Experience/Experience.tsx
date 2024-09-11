@@ -21,7 +21,7 @@ export function Experience({
     <div className="text-white w-full">
       <h3 className="text-xl">{role}</h3>
 
-      <p className="text-md"><span>{enterprise}</span> - <span>{kindOfJob}</span></p>
+      <p className="text-sm"><span className="text-gray-300">{enterprise}</span> - <span>{kindOfJob}</span></p>
 
       <p className="text-sm"><span>{startDate}</span> - <span>{endDate}</span></p>
       

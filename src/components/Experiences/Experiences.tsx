@@ -1,6 +1,7 @@
 import { Experience } from "../Experience/Experience";
 
 interface Job {
+  id: number
   role: string
   enterprise: string
   kindOfJob: 'Freelance' | 'Tempo Integral' | 'Meio período' | 'Contrato' | 'Temporário' | 'Estágio' | 'Outro'
@@ -13,6 +14,7 @@ interface Job {
 export function Experiences() {
   const jobs: Job[] = [
     {
+      id: 1,
       role: 'Desenvolvedor Backend Pleno - NestJS',
       enterprise: 'Oak Apps',
       kindOfJob: 'Freelance',
@@ -22,6 +24,7 @@ export function Experiences() {
       description: ''
     },
     {
+      id: 2,
       role: 'Desenvolvedor Mobile Pleno - React Native',
       enterprise: 'Oak Apps',
       kindOfJob: 'Freelance',
@@ -31,6 +34,7 @@ export function Experiences() {
       description: ''
     },
     {
+      id: 3,
       role: 'Desenvolvedor Frontend Junior - ReactJS',
       enterprise: 'Studywise',
       kindOfJob: 'Freelance',
@@ -40,6 +44,7 @@ export function Experiences() {
       description: ''
     },
     {
+      id: 4,
       role: 'Testador de Software',
       enterprise: 'TechSavvy Brasil',
       kindOfJob: 'Tempo Integral',
@@ -49,6 +54,7 @@ export function Experiences() {
       description: ''
     },
     {
+      id: 5,
       role: 'Desenvolvedor Backend Junior - NodeJS',
       enterprise: 'Oak Apps',
       kindOfJob: 'Freelance',
@@ -68,6 +74,7 @@ export function Experiences() {
           jobs.map((job) => {
             return (
               <Experience
+                key={job.id}
                 role={job.role}
                 enterprise={job.enterprise}
                 kindOfJob={job.kindOfJob}
