@@ -17,7 +17,7 @@ export function Formations() {
       area: 'Curso Superior de Tecnologia (CST)',
       course: 'Análise e Desenvolvimento de Sistemas',
       startDate: 'Agosto de 2024',
-      endDate: 'Em curso'
+      endDate: 'Agosto de 2026'
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ export function Formations() {
 
   return (
     <div className='my-7 w-full'>
-      <h2 className='text-2xl text-gray-400 ml-4 mb-2'>Formação</h2>
+      <h2 className='text-2xl text-gray-400 ml-4 mb-2'>Formação Acadêmica</h2>
 
       <div className="grid sm:grid-cols-1 lg:grid-cols-2 pl-6 gap-5">
         {
