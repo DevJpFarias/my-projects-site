@@ -69,7 +69,7 @@ export function Experiences() {
     <div className='my-7 w-full'>
       <h2 className='text-2xl text-gray-400 ml-4 mb-2'>Experiência</h2>
 
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 pl-6 gap-5">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-1s pl-6 gap-5">
         {
           jobs.map((job) => {
             return (
@@ -84,7 +84,7 @@ export function Experiences() {
                 description={job.description}
               />
             )
-          })
+          }).reverse()
         }
       </div>
     </div>

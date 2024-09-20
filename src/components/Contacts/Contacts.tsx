@@ -6,7 +6,7 @@ export function Contacts() {
     <div className='my-7 w-full'>
       <h2 className='text-2xl text-gray-400 ml-4 mb-2'>Contatos</h2>
 
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 pl-6 gap-5 text-white">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-1 pl-6 gap-5 text-white">
         <a className="flex items-center gap-2" href="https://wa.me/5521982143323" target="_blank">
           <FaWhatsapp size={24} /> (21) 982143323
         </a>

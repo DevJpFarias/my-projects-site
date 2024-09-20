@@ -5,9 +5,10 @@ import BhaskarasSiteImg from '../../../public/Calculadora de Bhaskaras.png'
 import RegraDeTresImg from '../../../public/Regra de Três Simples.png'
 import RendimentosImg from '../../../public/Calculadora de Rendimentos.png'
 import SiteListagemImg from '../../../public/Site de Listagem.png'
-import FoodStoreImg from '../../../public/FoodStore.png'
+// import FoodStoreImg from '../../../public/FoodStore.png'
 import StatsPreviewImg from '../../../public/Frontend Mentor _ Stats preview card component.png'
 import ProductPreviewImg from '../../../public/Frontend Mentor _ Product preview card component.png'
+import JogoDaVelha from '../../../public/Jogo da Velha.png'
 
 interface Project {
   id: number
@@ -35,41 +36,48 @@ export function Projects() {
     },
     {
       id: 3,
+      title: 'Jogo da Velha',
+      description: 'Site de jogo da velha para jogar você e mais uma pessoa.',
+      image: JogoDaVelha,
+      url: 'https://migufe-jogo-da-velha.netlify.app/'
+    },
+    {
+      id: 4,
       title: 'Regra de Três Simples',
       description: 'Site para calcular Regra de Três Simples com rapidez.',
       image: RegraDeTresImg,
       url: 'https://migufe-regra-de-tres.netlify.app'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Calculadora de Bhaskaras',
       description: 'Site para calcular Bhaskaras de forma simples, passando apenas os valores e recebendo as raízes.',
       image: BhaskarasSiteImg,
       url: 'https://migufe-bhaskara-calculator.netlify.app'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Site de Listagem',
       description: 'Site para criar listas de forma simples e rápida manda-las no Whatsapp.',
       image: SiteListagemImg,
       url: 'https://migufe-lista-tarefas.netlify.app'
     },
+    // {
+    //   id: 7,
+    //   title: 'Restaurante Food',
+    //   description: 'Landing Page criada para apresentação de restaurante.',
+    //   image: FoodStoreImg,
+    //   url: 'https://migufe-food-store.netlify.app/'
+    // },
     {
-      id: 6,
-      title: 'Restaurante Food',
-      description: 'Landing Page criada para apresentação de restaurante.',
-      image: FoodStoreImg,
-      url: 'https://migufe-food-store.netlify.app/'
-    },
-    {
-      id: 7,
+      id: 99,
       title: 'Landing Page',
       description: 'Landing Page criada para apresentação de equipes.',
       image: StatsPreviewImg,
       url: 'https://stats-preview-card-component-layout.netlify.app/'
     },
     {
-      id: 8,
+      id: 100,
       title: 'Card de Produto',
       description: 'Landing Page de apresentação de perfume.',
       image: ProductPreviewImg,
