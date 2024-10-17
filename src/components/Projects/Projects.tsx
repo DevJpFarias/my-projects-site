@@ -9,6 +9,7 @@ import SiteListagemImg from '../../../public/Site de Listagem.png'
 import StatsPreviewImg from '../../../public/Frontend Mentor _ Stats preview card component.png'
 import ProductPreviewImg from '../../../public/Frontend Mentor _ Product preview card component.png'
 import JogoDaVelha from '../../../public/Jogo da Velha.png'
+import QueensGame from '../../../public/QueensGame.png'
 
 interface Project {
   id: number
@@ -22,41 +23,48 @@ export function Projects() {
   const projects: Project[] = [
     {
       id: 1,
+      title: 'Queens Game',
+      description: 'Jogo atualizado para a primeira rainha ser colocada em um lugar no tabuleiro, contador de movimentos, cronometro e ranking dos melhores players. Além de cadastro e login.',
+      image: QueensGame,
+      url: 'https://queens-game.netlify.app/'
+    },
+    {
+      id: 2,
       title: 'Bolos do Migufe',
       description: 'Site de loja de bolos com sistema de carrinho de compras e finalização de compras pelo Whatsapp.',
       image: MigufeCakeImg,
       url: 'https://migufe-cake-store.netlify.app'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Calculadora de Rendimentos',
       description: 'Site feito para calcular juros, ver como seria aplicando cada mês e ver a tabela de rendimentos.',
       image: RendimentosImg,
       url: 'https://investmentamount.netlify.app/'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Jogo da Velha',
       description: 'Site de jogo da velha para jogar você e mais uma pessoa.',
       image: JogoDaVelha,
       url: 'https://migufe-jogo-da-velha.netlify.app/'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Regra de Três Simples',
       description: 'Site para calcular Regra de Três Simples com rapidez.',
       image: RegraDeTresImg,
       url: 'https://migufe-regra-de-tres.netlify.app'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Calculadora de Bhaskaras',
       description: 'Site para calcular Bhaskaras de forma simples, passando apenas os valores e recebendo as raízes.',
       image: BhaskarasSiteImg,
       url: 'https://migufe-bhaskara-calculator.netlify.app'
     },
     {
-      id: 6,
+      id: 7,
       title: 'Site de Listagem',
       description: 'Site para criar listas de forma simples e rápida manda-las no Whatsapp.',
       image: SiteListagemImg,
